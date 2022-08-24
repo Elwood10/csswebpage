@@ -1,36 +1,70 @@
+html,body {
+    height: 100%;
+width: 100%;
+}
+
 div {display :flex;
 
 }
 .header  {background-color: #1F2937;
 color:aliceblue;
-width: 100%;
-height: 25%;
+text-align: center;
+width: 50%;
+height: 4%;
+float :left;
 
 }
-
-    .one {background-color: #1F2937;
-        color:aliceblue;
-        
-    }
-    
-.two {background-color: #66857f;
-color :aliceblue;
+.logo{
+    margin-left: 100px;
 }
-.three{background-color: blue;
+.rightheader {
+    background-color: #1F2937;
+    color: aliceblue;
+    float :right;
+    width:50%;
+    height: 4%;
+    display :inline;
+}
+.toprow{display :inline;}
+.top{
+    float :right;
+    background-color: #1F2937;
+    color :aliceblue;
+    margin-right: 50px;
+    font-size: 18px;
+
+}
+.one{
+    float:left;
+    width: 50%;
+    height: 38%;
+    background:#1F2937;
     color:aliceblue;
+    display: block;
 
 }
-.footer {
-    background-color: aquamarine;
-    color :antiquewhite;
-display :flex;
-height :25%;
+   .text1{
+    margin-left:100px;
+    margin-right:100px;
+    font-size: 48px;
+   }
+   .text2{
+    margin-left: 100px;
+    margin-right: 250px;
+    font-size: 18px;
+    filter: contrast(50%);
+   }
+   
 
+.button{
+    border:none;
+    background-color: #3882f6;
+    color:aliceblue;
+    margin-left: 100px;
+    height: 30px;
+    width:100px;
+    border-radius: 12px;
+    
+}
 
-}
-.box{
-    width :30px;
-    Height :30px;
-    background-color: black;
-    margin :5px;
-}
+   
